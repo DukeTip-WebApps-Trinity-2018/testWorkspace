@@ -1,0 +1,106 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #001A57;
+    color: #E5E5E5;
+    font-size: 1.2em;
+    border: 0;
+}
+
+
+.navbar .navbar-collapse .navbar-nav .active a,
+.navbar .navbar-collapse .navbar-nav .active a:focus,
+.navbar .navbar-collapse .navbar-nav .active a:hover {
+    color: #E5E5E5;
+    background-color: #001A57;
+}
+
+.navbar-brand img {
+    width: 190px;
+    height: 55px;
+    padding: auto;
+    color: #E5E5E5;
+}
+
+.navbar .navbar-collapse .navbar-nav li a {
+    color: #E5E5E5;
+}
+
+.navbar .navbar-collapse .navbar-nav li a:hover {
+    color: #B5B5B5;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    font-family: "Neon Display";
+}
+
+.btn {
+    font-size: 18px;
+    color: #E5E5E5;
+    padding: 12px 22px;
+    background: #001A57;
+    border: 2px solid #E5E5E5;
+}
+
+.container {
+    margin: 4% auto;
+}
+
+.item>img {
+    width: 100%;
+}
+
+#icon {
+    max-width: 200px;
+    margin: 1% auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #001A57;
+    padding: 5%;
+    color: #E5E5E5;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #E5E5E5;
+}
+
+.fa:hover {
+    color: #B5B5B5;
+    text-decoration: none;
+}
+
+@media(max-width: 900px) {
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    #icon {
+        max-width: 150px;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+}
+
+h4{
+    font-size: 60px;
+    color: #e5e5e500;
+    text-align: center;
+    }

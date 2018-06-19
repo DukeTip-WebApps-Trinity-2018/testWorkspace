@@ -1,0 +1,36 @@
+/* For mobile phones */
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    float: right;
+}
+
+body{
+    background-color: blueviolet;
+    color: cyan;
+}
+
+/* For tablets */
+@media(min-width: 600px){
+    body{
+        background-color: cyan;
+        color: blueviolet;
+    }
+    p{
+        float: left;
+    }
+}
+/* For Desktop/Laptop */
+@media(min-width: 992px){
+    body{
+        background-color: black;
+        color: white;
+    }
+    p{
+        float: right;
+    }
+}
+
