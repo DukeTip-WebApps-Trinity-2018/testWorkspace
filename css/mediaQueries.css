@@ -1,36 +1,38 @@
-/* For mobile phones */
+/* For desktop/laptop */
 h1{
     font-size: 40px;
     text-align: center;
 }
-p{
-    font-size: 24px;
-    float: right;
-}
 
 body{
-    background-color: blueviolet;
-    color: cyan;
+    background-color: black;
+    color: white;
 }
+#floater{
+    float: right;
+}
+/* For phones */
 
-/* For tablets */
-@media(min-width: 600px){
+/* For tablets/large phones */
+@media(max-width: 992px){
     body{
         background-color: cyan;
-        color: blueviolet;
+        color:   blueviolet;
     }
-    p{
+    #floater{
         float: left;
     }
 }
-/* For Desktop/Laptop */
-@media(min-width: 992px){
-    body{
-        background-color: black;
-        color: white;
-    }
-    p{
+@media(max-width: 768px){
+
+    #floater{
+        font-size: 24px;
         float: right;
     }
+    
+    body{
+        background-color: blueviolet;
+        color: cyan;
+    
+    }
 }
-
