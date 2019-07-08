@@ -1,0 +1,15 @@
+body {
+    color: red;
+}
+header {
+    color: blue;
+}
+footer{
+    color: green;
+}
+li {
+    color: purple;
+}
+ol li {
+    color: teal;
+}
