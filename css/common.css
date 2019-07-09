@@ -9,6 +9,8 @@ footer{
 }
 li {
     color: purple;
+    width: 20%;
+    margin: auto;
 }
 ol li {
     color: teal;
