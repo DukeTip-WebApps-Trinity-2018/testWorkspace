@@ -1,5 +1,7 @@
 body {
     color: red;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 20pt;
 }
 header {
     color: blue;
@@ -12,4 +14,14 @@ li {
 }
 ol li {
     color: teal;
+    border: 5px dotted red;
+}
+span.first {
+    color: blueviolet;
+}
+button {
+    border: 2000px solid olive;
+}
+div#doubleBorder {
+    border: 2000px solid red;
 }
